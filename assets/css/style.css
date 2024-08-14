@@ -1,0 +1,126 @@
+/* GLOBALS */
+
+body {
+  font-family: "TS-Reg";
+  font-size: 16px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 54px;
+  font-family: "TS-Med";
+  margin: 20px 0;
+}
+/* ------------------------------------ */
+/* HEADER */
+/* ------------------------------------
+------------------------------------
+------------------------------------ */
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+header img {
+  width: 190px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons-nav {
+  display: flex;
+}
+.icons-nav:not(:last-child) {
+  padding: 8px 10px;
+}
+.icons-nav i {
+  margin-right: 4px;
+}
+
+header button {
+  height: 40px;
+  width: 130px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+/* ------------------------------------ */
+/* TOP-SECTION */
+/* ------------------------------------
+------------------------------------
+------------------------------------ */
+
+h1 span {
+  color: #ff5d5d;
+}
+
+h1 + p {
+  font-size: 12px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+h1 + p span {
+  text-decoration: underline;
+}
+
+.top-nav {
+  display: flex;
+  gap: 10px;
+  height: 66px;
+  margin-bottom: 20px;
+}
+.top-nav > div {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  border-radius: 14px;
+  /* height: 40px; */
+  padding: 12px 15px;
+  flex: 1;
+}
+
+.views {
+  display: flex;
+  height: 430px;
+  gap: 2px;
+}
+.views > img {
+  flex: 3;
+  object-fit: cover;
+}
+.views > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 2;
+}
+
+.views > div img {
+  height: calc(50% - 1px);
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu > div {
+  display: flex;
+  border: 2px solid black;
+}
+
+.menu div:last-child {
+  justify-content: flex-end;
+}
